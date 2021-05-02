@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 nav>ul{
     margin: 0;
     padding: 0;
@@ -26,8 +24,6 @@ ul li a{
 }
 ul li:hover{
     background-color: rgb(33, 33, 85) ;
-    
-
 }
 .dropdown-p{
     opacity: 0;
@@ -46,12 +42,10 @@ ul li:hover .dropdown-p{
     position: absolute;
     top: 0;
     left: 100%;
-    transition: all .75s;
-    
+    transition: all .75s;   
 }
 ul.dropdown-p li:hover .dropdown-s{
     display: block;
     opacity: 1;
     visibility: visible;
-
 }
